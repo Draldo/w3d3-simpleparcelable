@@ -3,11 +3,12 @@
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ListView
-        android:id="@+id/a_main_list"
+    <fragment
+        android:id="@+id/main_fragment"
+        class="com.example.admin.simpleparcelable.BlankFragment"
         android:layout_weight="1"
         android:layout_width="0dp"
-        android:layout_height="match_parent"></ListView>
+        android:layout_height="match_parent"/>
 
     <ImageView
         android:id="@+id/imageview_item"
